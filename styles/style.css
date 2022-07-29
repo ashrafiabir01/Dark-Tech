@@ -1,0 +1,37 @@
+.header-sec {
+    background: black;
+    overflow: hidden;
+}
+
+.bland-mode {
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+@media screen and (max-width:991px) {
+    .company-responsive {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .ready-join {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .icon-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .course-img {
+        width: 500px;
+    }
+
+    body {
+        margin: 0px;
+    }
+}
